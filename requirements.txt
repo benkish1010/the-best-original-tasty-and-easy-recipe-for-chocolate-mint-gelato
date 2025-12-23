@@ -1,0 +1,27 @@
+# Chocolate Mint Gelato Maker - Python Dependencies
+# No external dependencies required - uses only Python standard library!
+
+# The gelato_maker.py script uses only built-in modules:
+# - time (for timing operations)
+# - json (for saving batch logs)
+# - datetime (for timestamps)
+# - typing (for type hints)
+# - dataclasses (for structured data)
+# - enum (for step enumeration)
+
+# All of these are included in Python 3.8+
+
+# Optional: If you want to extend the script with these features:
+
+# For advanced temperature monitoring (if connecting external thermometer):
+# pyserial==3.5
+
+# For plotting batch history:
+# matplotlib==3.7.1
+
+# For recipe scaling with fractions:
+# fractions  # (built-in, no install needed)
+
+# Python version requirement:
+# Python >= 3.8
+

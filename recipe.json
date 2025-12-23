@@ -1,0 +1,312 @@
+{
+  "recipe": {
+    "name": "Chocolate Mint Gelato",
+    "description": "Authentic Italian-style chocolate mint gelato with fresh mint infusion and double chocolate richness",
+    "cuisine": "Italian",
+    "category": "Dessert",
+    "type": "Gelato",
+    "difficulty": "Intermediate",
+    "yield": {
+      "amount": 1,
+      "unit": "quart",
+      "metric_amount": 1,
+      "metric_unit": "liter",
+      "servings": 10
+    },
+    "time": {
+      "prep_minutes": 30,
+      "cook_minutes": 20,
+      "chill_hours": 12,
+      "churn_minutes": 25,
+      "freeze_hours": 3,
+      "total_hours": 16
+    },
+    "ingredients": {
+      "base": [
+        {
+          "item": "whole milk",
+          "amount": 600,
+          "unit": "g",
+          "notes": "3.25% fat",
+          "optional": false
+        },
+        {
+          "item": "heavy cream",
+          "amount": 200,
+          "unit": "g",
+          "notes": "35% fat or higher",
+          "optional": false
+        },
+        {
+          "item": "granulated sugar",
+          "amount": 150,
+          "unit": "g",
+          "notes": "",
+          "optional": false
+        },
+        {
+          "item": "large egg yolks",
+          "amount": 4,
+          "unit": "pieces",
+          "notes": "about 75-85g",
+          "optional": false
+        },
+        {
+          "item": "fresh mint leaves",
+          "amount": 30,
+          "unit": "g",
+          "notes": "stems removed, washed and dried",
+          "optional": false
+        },
+        {
+          "item": "fine salt",
+          "amount": 0.25,
+          "unit": "tsp",
+          "notes": "",
+          "optional": false
+        }
+      ],
+      "chocolate": [
+        {
+          "item": "unsweetened cocoa powder",
+          "amount": 40,
+          "unit": "g",
+          "notes": "Dutch-process recommended",
+          "optional": false
+        },
+        {
+          "item": "dark chocolate",
+          "amount": 100,
+          "unit": "g",
+          "notes": "60-70% cacao, finely chopped",
+          "optional": false
+        }
+      ],
+      "optional": [
+        {
+          "item": "mini chocolate chips",
+          "amount": 50,
+          "unit": "g",
+          "notes": "for stracciatella effect",
+          "optional": true
+        }
+      ]
+    },
+    "instructions": [
+      {
+        "step": 1,
+        "name": "Infuse the Mint",
+        "duration_minutes": 15,
+        "temperature": {
+          "celsius": 80,
+          "fahrenheit": 176
+        },
+        "details": [
+          "Combine milk, cream, and mint leaves in heavy-bottom pot",
+          "Heat on medium until steaming but NOT boiling (about 80°C/176°F)",
+          "Remove from heat, cover, and steep for 10 minutes",
+          "Taste test - if too mild, steep 5 more minutes",
+          "Strain out mint leaves using fine-mesh strainer",
+          "Press gently to extract flavor, but don't crush too hard"
+        ],
+        "critical_notes": [
+          "Do not boil the mint - it becomes bitter",
+          "Don't over-press mint or it becomes grassy"
+        ]
+      },
+      {
+        "step": 2,
+        "name": "Add Cocoa and Melt Chocolate",
+        "duration_minutes": 5,
+        "temperature": {
+          "celsius": 65,
+          "fahrenheit": 149
+        },
+        "details": [
+          "While mixture is still warm, whisk in sugar, cocoa powder, and salt",
+          "Whisk thoroughly until no cocoa lumps remain",
+          "Add chopped dark chocolate",
+          "Stir constantly until chocolate is completely melted",
+          "Return to very low heat if needed, but don't overheat"
+        ],
+        "critical_notes": [
+          "Add cocoa to warm liquid to prevent lumps",
+          "Don't overheat chocolate or it can seize"
+        ]
+      },
+      {
+        "step": 3,
+        "name": "Temper Eggs and Cook Custard",
+        "duration_minutes": 12,
+        "temperature": {
+          "celsius": 83,
+          "fahrenheit": 181
+        },
+        "details": [
+          "In separate bowl, whisk egg yolks until smooth",
+          "Temper: Ladle 1/4 cup hot mixture into eggs while whisking constantly",
+          "Add two more 1/4 cup portions, whisking after each",
+          "Pour tempered egg mixture back into pot",
+          "Cook on medium-low heat, stirring constantly with wooden spoon",
+          "Cook until mixture reaches 82-84°C (180-183°F)",
+          "Should coat the back of a spoon - finger drawn through should leave clean line",
+          "Remove from heat immediately when temperature is reached"
+        ],
+        "critical_notes": [
+          "Must temper eggs gradually or they will scramble",
+          "Do NOT exceed 85°C (185°F) or eggs will scramble",
+          "Stir constantly during cooking",
+          "Use instant-read thermometer for accuracy"
+        ]
+      },
+      {
+        "step": 4,
+        "name": "Chill Hard",
+        "duration_hours": 12,
+        "temperature": {
+          "celsius": 4,
+          "fahrenheit": 39
+        },
+        "details": [
+          "Optional but recommended: Strain through fine-mesh strainer",
+          "Prepare ice bath (large bowl with ice and water)",
+          "Place pot in ice bath and stir occasionally for 30 minutes",
+          "Transfer to storage container",
+          "Cover surface with plastic wrap to prevent skin",
+          "Refrigerate minimum 4 hours, ideally 12-24 hours overnight"
+        ],
+        "critical_notes": [
+          "Longer chilling develops better flavor",
+          "Cold base churns more efficiently",
+          "Don't skip this step or gelato won't churn properly"
+        ]
+      },
+      {
+        "step": 5,
+        "name": "Churn",
+        "duration_minutes": 25,
+        "temperature": {
+          "celsius": -10,
+          "fahrenheit": 14
+        },
+        "details": [
+          "Ensure ice cream maker bowl is fully frozen (12-24 hours)",
+          "Pour chilled base into ice cream maker",
+          "Churn according to machine instructions, usually 15-30 minutes",
+          "Should reach soft-serve consistency",
+          "Should pull away from sides slightly",
+          "Optional: Add mini chocolate chips in last 1-2 minutes",
+          "Gelato will be soft but should hold its shape"
+        ],
+        "critical_notes": [
+          "Don't over-churn or gelato becomes too airy",
+          "Stop when it reaches soft-serve consistency"
+        ]
+      },
+      {
+        "step": 6,
+        "name": "Freeze and Serve",
+        "duration_hours": 3,
+        "temperature": {
+          "celsius": -13,
+          "fahrenheit": 9
+        },
+        "details": [
+          "Transfer gelato to freezer-safe container",
+          "Press plastic wrap directly on surface to prevent ice crystals",
+          "Freeze for 2-4 hours until firm but scoopable",
+          "Before serving: Let sit at room temperature 5-10 minutes",
+          "This brings it to ideal gelato serving temperature",
+          "Flavors are more pronounced when not rock-hard"
+        ],
+        "critical_notes": [
+          "Store up to 2 weeks in freezer",
+          "Ideal serving temp: -12°C to -14°C (10-14°F)",
+          "Always temper before serving for best texture"
+        ]
+      }
+    ],
+    "tips": {
+      "mint_intensity": [
+        "Too mild? Use 40g mint or steep 15 minutes next time",
+        "Too strong? Use 25g mint or steep only 8-10 minutes",
+        "Pro trick: Tear mint leaves before infusing to release more oils",
+        "Never boil mint - it becomes bitter and grassy"
+      ],
+      "chocolate_options": [
+        "Dutch-process cocoa: Less acidic, darker color (recommended)",
+        "Natural cocoa: More acidic, brighter flavor",
+        "Dark chocolate: 60-70% is sweet spot",
+        "For intense chocolate: Use 45g cocoa + 120g chocolate"
+      ],
+      "texture_optimization": [
+        "Denser gelato: Churn until thick, pack tightly (minimize air)",
+        "Silkier gelato: Don't rush the chilling phase (12-24 hours ideal)",
+        "Softer gelato: Add 10-20g more sugar",
+        "Prevent ice crystals: Press plastic wrap on surface during storage"
+      ]
+    },
+    "nutrition_per_100g": {
+      "calories": 220,
+      "total_fat_g": 12,
+      "saturated_fat_g": 7,
+      "cholesterol_mg": 95,
+      "sodium_mg": 45,
+      "carbohydrates_g": 24,
+      "sugars_g": 20,
+      "protein_g": 5
+    },
+    "equipment": [
+      "Heavy-bottom saucepan",
+      "Whisk",
+      "Fine-mesh strainer",
+      "Instant-read thermometer",
+      "Ice cream maker",
+      "Freezer-safe storage container",
+      "Large bowl for ice bath",
+      "Wooden spoon or silicone spatula"
+    ],
+    "storage": {
+      "method": "Freezer-safe airtight container",
+      "duration_weeks": 2,
+      "notes": "Press plastic wrap directly on surface to prevent ice crystals"
+    },
+    "tags": [
+      "gelato",
+      "ice cream",
+      "chocolate",
+      "mint",
+      "Italian",
+      "dessert",
+      "frozen dessert",
+      "custard-based",
+      "home ice cream maker",
+      "authentic",
+      "fresh mint",
+      "stracciatella"
+    ],
+    "references": [
+      {
+        "source": "Serious Eats",
+        "topic": "Ice cream science and custard technique"
+      },
+      {
+        "source": "The Art of Gelato by Matilda",
+        "topic": "Traditional Italian gelato ratios"
+      },
+      {
+        "source": "Stefan's Gourmet Blog",
+        "topic": "Mint infusion technique"
+      },
+      {
+        "source": "Matt Adlard",
+        "topic": "Churning best practices"
+      },
+      {
+        "source": "Gemma's Bigger Bolder Baking",
+        "topic": "Fresh mint vs extract comparison"
+      }
+    ]
+  }
+}
+
